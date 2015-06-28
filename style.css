@@ -19,6 +19,7 @@ body:before {
 
 #arrow{
     display: block;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     left:0;
@@ -92,8 +93,4 @@ body:before {
     left: 0;
     background: -moz-linear-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%);
     background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%);
-}
-
-img{
-    
 }
