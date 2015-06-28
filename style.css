@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('background.png') repeat;
+    
+}
+
+body:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: -moz-linear-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%);
+    background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%);
+}
+
+#arrow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    left:0;
+    right:0;
+}
+
+#circle{
+    position: absolute;
+    z-index: 1;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#currentCircle{
+    position: absolute;
+    z-index: 3;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#circleOutline{
+    position: absolute;
+    z-index: 2;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#meter{
+    position: absolute;
+    z-index: 3;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#overlay {
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height:100%;
+    text-align:center;
+    z-index: 1000;
+    background: url('background.png') repeat;
+    margin-left: auto;
+    margin-right: auto;
+    left:0;
+    right:0;
+    color: #F44336;
+    text-shadow: 5px 5px black;
+    font-size: 45px;
+    font-family: "arial";
+    font-weight: bold;
+}
+
+#overlay:before {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: -moz-linear-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%);
+    background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%);
+}
+
+img{
+    
+}
