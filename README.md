@@ -11,3 +11,11 @@ Somit wird der Nutzer durch Bewegung im Raum zielgerichtet zur Quelle des lautes
 Live: http://tiny.cc/SoundSource
 
 Developed by Jakob Sudau
+
+Tested on: 
+- Chrome for Mac (28.6.2015 working)
+- Firefox for Android (5.0 or newer, 28.6.2015 working)
+
+Note:
+- iOS Safari Browser is currently not supporting WebAudio or the getUserMedia() microphone access (28.6.2015)
+- Chrome for Android Browser is currenty experiencing troubles with the deviceOrientations alpha value (uneven distribution of values, 28.6.2015)
